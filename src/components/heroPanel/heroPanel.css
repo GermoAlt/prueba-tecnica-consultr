@@ -1,0 +1,63 @@
+.hero-card{
+    width: 150px;
+    height: 225px;
+    background-color: lightgray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px 5px lightgrey;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.hero-card img {
+    border-radius: 5px;
+    z-index: 1;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+}
+
+
+.hero-card .card-info{
+    z-index: 5;
+    color: white;
+    display: flex;
+    max-height: 100%;
+    flex:1 1 auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+    padding:10px
+}
+
+.hero-card .card-info p, .hero-card .card-info h2{
+    margin:0;
+}
+
+.hero-card .card-info h2{
+    font-size: 1.2em;
+}
+
+
+.skeleton {
+    background: rgba(130, 130, 130, 0.2);
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(130, 130, 130, 0.2)), color-stop(18%, rgba(130, 130, 130, 0.3)), color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right, rgba(130, 130, 130, 0.2) 8%, rgba(130, 130, 130, 0.3) 18%, rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-squares 2s infinite ease-out;
+}
+
+@keyframes wave-squares {
+    0% {
+        background-position: -468px 0;
+    }
+    100% {
+        background-position: 468px 0;
+    }
+}
