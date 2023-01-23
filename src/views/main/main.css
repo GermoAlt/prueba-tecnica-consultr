@@ -1,9 +1,0 @@
-main {
-    margin-top:60px;
-    display: flex;
-    flex-direction: row;
-    flex:1;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:15px
-}

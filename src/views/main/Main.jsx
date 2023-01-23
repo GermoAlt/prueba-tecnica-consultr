@@ -1,5 +1,4 @@
 import "../../services/apiService"
-import "./main.css"
 import HeroPanel from "../../components/heroPanel/HeroPanel";
 import {getHeroes} from "../../services/apiService";
 import {useEffect, useState} from "react";
@@ -20,7 +19,7 @@ export default function Main() {
     }
 
     return (
-        <main>
+        <main className={"mt-[60px] flex flex-row flex-1 justify-evenly flex-wrap items-stretch gap-2 px-2"}>
             {getHeroCards()}
         </main>
     )

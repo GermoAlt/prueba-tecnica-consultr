@@ -1,10 +1,9 @@
 import React from "react";
 
-const viewportThreshold = 0.1
 const useIntersectionObserver = ({
    target,
    onIntersect,
-   threshold = viewportThreshold,
+   threshold = 0,
    rootMargin = "0px"
 }) => {
     React.useEffect(() => {
