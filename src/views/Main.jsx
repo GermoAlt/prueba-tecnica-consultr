@@ -1,6 +1,6 @@
-import "../../services/apiService"
-import HeroPanel from "../../components/heroPanel/HeroPanel";
-import {getHeroes} from "../../services/apiService";
+import "../services/apiService"
+import HeroPanel from "../components/HeroPanel";
+import {getHeroes} from "../services/apiService";
 import {useEffect, useState} from "react";
 export default function Main() {
     const [heroesList, setHeroesList] = useState([])

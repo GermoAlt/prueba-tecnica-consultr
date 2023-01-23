@@ -1,5 +1,5 @@
-import Header from "./views/header/Header";
-import Main from "./views/main/Main";
+import Header from "./components/Header";
+import Main from "./views/Main";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import {useRef, useState} from "react";
-import useIntersectionObserver from "../../hooks/UseIntersectionObserver";
+import useIntersectionObserver from "../hooks/UseIntersectionObserver";
 export default function HeroPanel(props) {
     const hero = props.hero
     const [loading, setLoading] = useState(true)

@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04bb6eb0-fc76-4add-b4b7-c7aae35fc1b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/heroPanel/HeroPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/heroPanel/HeroPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/heroPanel/heroPanel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/UseIntersectionObserver.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/UseIntersectionObserver.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/main/main.css" beforeDir="false" />
-    </list>
+    <list default="true" id="04bb6eb0-fc76-4add-b4b7-c7aae35fc1b4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +12,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1674457676" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1674457651" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +58,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "E:\\Dev\\PruebasTecnicas\\prueba-tecnica-consultr\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,6 +69,12 @@
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dev\PruebasTecnicas\prueba-tecnica-consultr\src\components" />
+      <recent name="E:\Dev\PruebasTecnicas\prueba-tecnica-consultr\src\views" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -83,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674074058657</updated>
       <workItem from="1674074059942" duration="511000" />
-      <workItem from="1674440534668" duration="6300000" />
+      <workItem from="1674440534668" duration="7538000" />
     </task>
     <servers />
   </component>
